@@ -129,23 +129,43 @@ namespace ZapYS.Controllers
 
         UsersDAL UsersDAL = new UsersDAL();
 
+        public ActionResult Logout()
+        {
+            Session[V] = null;
+            return RedirectToAction("Login");
+        }
+
         public ActionResult Login()
         {
-            return View();
+            if (Session[V] != null)
+            {
+                return RedirectToAction("List");
+            }
+            else
+            {
+                return View();
+            }
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Login(Users u)
         {
-            List<Users> ListaUsuarios = UsersDAL.Login(u.correo, u.password).ToList();
-            if (ListaUsuarios.Count != 0)
+            if (Session[V] == null)
             {
-                Session[V] = u.correo;
-                return RedirectToAction("List", "ZYSAD");
+                List<Users> ListaUsuarios = UsersDAL.Login(u.correo, u.password).ToList();
+                if (ListaUsuarios.Count != 0)
+                {
+                    Session[V] = u.correo;
+                    return RedirectToAction("List", "ZYSAD");
+                }
+                else
+                {
+                    return View();
+                }
             }
             else
             {
-                return View();
+                return RedirectToAction("List", "ZYSAD");
             }
         }
     }
