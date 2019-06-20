@@ -172,11 +172,11 @@
     <Content Include="Views\ZYSAD\Delete.cshtml" />
     <Content Include="Views\ZYSAD\Details.cshtml" />
     <Content Include="Views\ZYSAD\Login.cshtml" />
+    <Content Include="Views\ZYSUS\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Shared\NewFolder1\" />
-    <Folder Include="Views\ZYSUS\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
