@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Downy Shoes Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //custom-theme -->
+    <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../Content/shop.css" type="text/css" media="screen" property="" />
+    <link href="../Content/style7.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Owl-carousel-CSS -->
+    <link rel="stylesheet" type="text/css" href="../Content/contact.css">
+    <link href="../Content/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- font-awesome-icons -->
+    <link href="../Content/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <title>@ViewBag.Title - Zapaterías Yucatán Sur</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="banner_top innerpage" id="home">
+        <div class="wrapper_top_w3layouts">
+            <div class="header_agileits">
+                <div class="logo inner_page_log">
+                    <h1><a class="navbar-brand" href="index.html"><span>Zapateria</span> <i>Yucatan Sur</i></a></h1>
+                </div>
+                <div class="overlay overlay-contentpush">
+                    <button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+
+                    <nav>
+                        <ul>
+                            <li>@Html.ActionLink("Inicio", "Index", "ZYS")</li>
+                            <li>@Html.ActionLink("¿Quiénes somos?", "Index", "ZYS")</li>
+                            <li>@Html.ActionLink("Equipo", "Team", "ZYS")</li>
+                            <li>@Html.ActionLink("Ventas", "Shop", "ZYS")</li>
+                            <li>@Html.ActionLink("Contacto", "Contact", "ZYS")</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile-nav-button">
+                    <button id="trigger-overlay" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                </div>
+                <!-- cart details -->
+                <div class="top_nav_right">
+                    <div class="shoecart shoecart2 cart cart box_1">
+                        <form action="#" method="post" class="last">
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="display" value="1">
+                            <button class="top_shoe_cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //cart details -->
+        <!-- search -->
+        <div class="search_w3ls_agileinfo">
+            <div class="cd-main-header">
+                <ul class="cd-header-buttons">
+                    <li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+                </ul>
+            </div>
+            <div id="cd-search" class="cd-search">
+                <form action="#" method="post">
+                    <input name="Search" type="search" placeholder="Click enter after typing...">
+                </form>
+            </div>
+        </div>
+        <!-- //search -->
+        <div class="clearfix"></div>
+        <!-- /banner_inner -->
+        <div class="services-breadcrumb_w3ls_agileinfo">
+            <div class="inner_breadcrumb_agileits_w3">
+
+                <ul class="short">
+                    <li><a href="index.html">Inicio</a><i>|</i></li>
+                    <li>Contactenos</li>
+                </ul>
+            </div>
+        </div>
+        <!-- //banner_inner -->
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+
+    <div class="footer_agileinfo_w3">
+        <div class="footer_inner_info_w3ls_agileits">
+            <div class="col-md-3 footer-left">
+                <h2><a href="index.html"><span>Z</span>apateria Yucatán </a></h2>
+                <p>
+                    Conoce nuestros mejores catalogos,
+                    descubre una gran variedad de calzado,
+                    Asombrate con los nuevos diseños.
+                </p>
+                <ul class="social-nav model-3d-0 footer-social social two">
+                    <li>
+                        <a href="#" class="facebook">
+                            <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="instagram">
+                            <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="pinterest">
+                            <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9 footer-right">
+                <div class="sign-grds">
+                    <div class="col-md-4 sign-gd">
+                        <h4>Nuestra <span>Información</span> </h4>
+                        <ul>
+                            <li><a href="index.html" class="active">Inicio</a></li>
+                            <li><a href="about.html">¿Quienes somos?</a></li>
+                            <li><a href="404.html">Equipo</a></li>
+                            <li><a href="shop.html">Ventas</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 sign-gd-two">
+                        <h4>Información <span>de la tienda</span></h4>
+                        <div class="address">
+                            <div class="address-grid">
+                                <div class="address-left">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="address-right">
+                                    <h6>Número</h6>
+                                    <p>+52 9991942749</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="address-grid">
+                                <div class="address-left">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="address-right">
+                                    <h6>Email</h6>
+                                    <p>Email :<a href="mailto:example@email.com"> yucatanSur@gmail.com</a></p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="address-grid">
+                                <div class="address-left">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="address-right">
+                                    <h6>Ubicación</h6>
+                                    <p>
+                                        Calle 34 #564 Frac. Las Aguilas.
+
+                                    </p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 sign-gd flickr-post">
+                        <h4>Nuestros <span>Posts</span></h4>
+                        <ul>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-2.fna.fbcdn.net/v/t1.0-9/60741526_1092275734296565_6639469713866883072_n.jpg?_nc_cat=100&_nc_eui2=AeGtHh9fmA11uUqqDAAYSFdgl8war1AiB8APT0kxJtLZ3NUo7IcDo25kXewucimE4bXa6XOcVcNs3p-uQ7kcKRqgAyDqG05ChkOiOZhXkPCY9w&_nc_ht=scontent.fmid1-2.fna&oh=8e0682d46a20bcdf1d36d94febe509c0&oe=5DC6A9D7" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fcjs3-1.fna.fbcdn.net/v/t1.0-9/20479633_1996906913862399_7578710366077739562_n.jpg?_nc_cat=107&_nc_eui2=AeF_60z-2NWHIICrwTykTr7OvG7MWcgmFw88RG8j765UKCPpfC7GfQB5rgIuOjm8sRnLNGskMGDGMyX2A96bpnPr872vcbSz81BEEvKw7E5kfggWd9mdTpSf73uU6YJ73TE&_nc_ht=scontent.fcjs3-1.fna&oh=73fec6c7afc70ba1f43c68e6d6f9060f&oe=5D78E402" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fcjs3-2.fna.fbcdn.net/v/t1.0-9/57736422_10216926613415446_4797586062857732096_n.jpg?_nc_cat=103&_nc_eui2=AeG6Xy0mftdT_sHycQsy9r086fizsM5xrdhNrACVdnk1bp4xX4tXKADSXuRDQcsMajtnO_-cfN3ypD1TuS-PvW8Yyf17WbHYIlw5iolsefhkpL3bV8zW2a_ijUZHnrNBI2E&_nc_ht=scontent.fcjs3-2.fna&oh=153df4ec51e613e8d9c8e0c5a502809c&oe=5D8C44D5" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/20954052_10212236357001967_1424971568508677690_n.jpg?_nc_cat=108&_nc_eui2=AeFxQCwQwbHlpuNPTkNnG6bmyYoZl3_acDhHdAJ-yOPxdBC05T55oqihtT_PzEhNwGn0HXDx3Yme4szqhf3wasHINy6Poy1hcTOkrIWLOtelrw&_nc_ht=scontent.fmid1-1.fna&oh=c7700a45b3cc75a6fc5965c57997d4e2&oe=5D801C3F" alt=" " class="img-responsive" /></a></li>
+
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/60586445_1092276294296509_1947358886633668608_o.jpg?_nc_cat=109&_nc_eui2=AeFimqo7XRrfvfHcuJlym_P1Nv-8T8-d2UC8lHRvGRaC_0xYsXopXBqpPTI8t-fX_Qei-wHsxPqCCIhtM9TNYfZvZpOkyySKJRnaXzw5Sy_uxA&_nc_ht=scontent.fmid1-1.fna&oh=91fd58a069ff8c678f2fa38d4c935e21&oe=5D91FD23" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/31516834_2125158607703895_728047753250209792_n.jpg?_nc_cat=111&_nc_eui2=AeGOKWNQhw3DwoQEtAU17rjqxPCaMoqnBy2uEnquM7Cm2NK245Nv3BzeH2VVxqstY_tadJopAiwRoeMtbl0nBUzkWbtwd_Exuz2bQpWLBuTzGg&_nc_ht=scontent.fmid1-1.fna&oh=c9fb1c3eaee28847a0ea5aa8556b482c&oe=5D8AB435" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/19905424_10211873660214774_3253569933534863449_n.jpg?_nc_cat=111&_nc_eui2=AeFoELg4nEQuY4nXyi-FqmoXK8K8U0WyJkFYYD553fHB-K_Sh_pJfhBoT1mJ6fw_iusa8wd0_a46z4o3Z6Cg-AstoXN6LOTcloHzaJdzopfdnw&_nc_ht=scontent.fmid1-1.fna&oh=a9cfd9c5191d7ec4e3f62a4a900b0b92&oe=5D8B1902" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/26239245_801180763406065_2994096935231333147_n.jpg?_nc_cat=104&_nc_eui2=AeF-UXeo9JaAoon0ssHSnKVIsL3W1DSCW7FZtgnD7OdCudA6X9pJJapB8Qlp_pq5mVMU30XDEIEVa5AVgTqUi087ithUvf6AbnacXxkSTcny8g&_nc_ht=scontent.fmid1-1.fna&oh=ac45a7503987e9332141857df87ad97f&oe=5DC51E4E" alt=" " class="img-responsive" /></a></li>
+                            <li><a href="single.html"><img src="https://scontent.fmid1-1.fna.fbcdn.net/v/t1.0-9/29542876_2108742642678825_8192568146157348072_n.jpg?_nc_cat=104&_nc_eui2=AeGum7RAa6xNeF7evjutkTMnRhe_SySJv3MLLLaqcY41Xf6owvABU-5hcajch7e-Y4T2quwPxLJeKAOqrBiq--_mfl9_IXENaN8uXDqKUZUZ-Q&_nc_ht=scontent.fmid1-1.fna&oh=54eba29be2547f43071132a1b5422437&oe=5D960D0F" alt=" " class="img-responsive" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <p class="copy-right-w3ls-agileits">&copy 2019 Zapateria Yucatán Sur. Todos los derechos reservados | Diseñado por <a href="http://w3layouts.com/">Emmanuel</a></p>
+        </div>
+    </div>
+    </div>
+    <!-- //footer -->
+    <!-- js -->
+    <script type="text/javascript" src="../Scripts/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+    <!-- cart-js -->
+    <script src="../Scripts/minicart.js"></script>
+    <script>
+        shoe.render();
+
+        shoe.cart.on('shoe_checkout', function (evt) {
+            var items, len, i;
+
+            if (this.subtotal() > 0) {
+                items = this.items();
+
+                for (i = 0, len = items.length; i < len; i++) { }
+            }
+        });
+    </script>
+    <!-- //cart-js -->
+    <!-- /nav -->
+    <script src="../Scripts/modernizr-2.6.2.min.js"></script>
+    <script src="../Scripts/classie.js"></script>
+    <script src="../Scripts/demo1.js"></script>
+    <!-- //nav -->
+    <!-- script for responsive tabs -->
+    <script src="../Scripts/easy-responsive-tabs.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                closed: 'accordion', // Start closed if in accordion view
+                activate: function (event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+            $('#verticalTab').easyResponsiveTabs({
+                type: 'vertical',
+                width: 'auto',
+                fit: true
+            });
+        });
+    </script>
+    <!--search-bar-->
+    <script src="../scripts/search.js"></script>
+    <!--//search-bar-->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="../Scripts/move-top.js"></script>
+    <script type="text/javascript" src="../Scripts/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smoth-scrolling -->
+    <script type="text/javascript" src="../Scripts/bootstrap-3.1.1.min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>
