@@ -20,20 +20,20 @@ namespace ZapYS.Controllers
             return View();
         }
 
-        // GET: ZYS/Create
-        public ActionResult Create()
+        // GET: ZYS/Contact
+        public ActionResult Contact()
         {
             return View();
         }
 
-        // GET: ZYS/Edit
-        public ActionResult Edit()
+        // GET: ZYS/Shop
+        public ActionResult Shop()
         {
             return View();
         }
 
-        // GET: ZYS/Delete
-        public ActionResult Delete()
+        // GET: ZYS/Team
+        public ActionResult Team()
         {
             return View();
         }
